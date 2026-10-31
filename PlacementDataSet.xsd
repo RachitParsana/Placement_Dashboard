@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PlacementDataSet" targetNamespace="http://tempuri.org/PlacementDataSet.xsd" xmlns:mstns="http://tempuri.org/PlacementDataSet.xsd" xmlns="http://tempuri.org/PlacementDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PlacementDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="PlacementDataSet" msprop:Generator_DataSetName="PlacementDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PlacementTable" msprop:Generator_RowEvHandlerName="PlacementTableRowChangeEventHandler" msprop:Generator_RowDeletedName="PlacementTableRowDeleted" msprop:Generator_RowDeletingName="PlacementTableRowDeleting" msprop:Generator_RowEvArgName="PlacementTableRowChangeEvent" msprop:Generator_TablePropName="PlacementTable" msprop:Generator_RowChangedName="PlacementTableRowChanged" msprop:Generator_RowChangingName="PlacementTableRowChanging" msprop:Generator_TableClassName="PlacementTableDataTable" msprop:Generator_RowClassName="PlacementTableRow" msprop:Generator_TableVarName="tablePlacementTable" msprop:Generator_UserTableName="PlacementTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StudentId" msprop:Generator_ColumnPropNameInRow="StudentId" msprop:Generator_ColumnPropNameInTable="StudentIdColumn" msprop:Generator_ColumnVarNameInTable="columnStudentId" msprop:Generator_UserColumnName="StudentId" type="xs:int" minOccurs="0" />
+              <xs:element name="EnrollmentNo" msprop:Generator_ColumnPropNameInRow="EnrollmentNo" msprop:Generator_ColumnPropNameInTable="EnrollmentNoColumn" msprop:Generator_ColumnVarNameInTable="columnEnrollmentNo" msprop:Generator_UserColumnName="EnrollmentNo" type="xs:string" minOccurs="0" />
+              <xs:element name="StudentName" msprop:Generator_ColumnPropNameInRow="StudentName" msprop:Generator_ColumnPropNameInTable="StudentNameColumn" msprop:Generator_ColumnVarNameInTable="columnStudentName" msprop:Generator_UserColumnName="StudentName" type="xs:string" minOccurs="0" />
+              <xs:element name="Department" msprop:Generator_ColumnPropNameInRow="Department" msprop:Generator_ColumnPropNameInTable="DepartmentColumn" msprop:Generator_ColumnVarNameInTable="columnDepartment" msprop:Generator_UserColumnName="Department" type="xs:string" minOccurs="0" />
+              <xs:element name="PassingYear" msprop:Generator_ColumnPropNameInRow="PassingYear" msprop:Generator_ColumnPropNameInTable="PassingYearColumn" msprop:Generator_ColumnVarNameInTable="columnPassingYear" msprop:Generator_UserColumnName="PassingYear" type="xs:int" minOccurs="0" />
+              <xs:element name="PlacementStatus" msprop:Generator_ColumnPropNameInRow="PlacementStatus" msprop:Generator_ColumnPropNameInTable="PlacementStatusColumn" msprop:Generator_ColumnVarNameInTable="columnPlacementStatus" msprop:Generator_UserColumnName="PlacementStatus" type="xs:string" minOccurs="0" />
+              <xs:element name="CompanyName" msprop:Generator_ColumnPropNameInRow="CompanyName" msprop:Generator_ColumnPropNameInTable="CompanyNameColumn" msprop:Generator_ColumnVarNameInTable="columnCompanyName" msprop:Generator_UserColumnName="CompanyName" type="xs:string" minOccurs="0" />
+              <xs:element name="JobRole" msprop:Generator_ColumnPropNameInRow="JobRole" msprop:Generator_ColumnPropNameInTable="JobRoleColumn" msprop:Generator_ColumnVarNameInTable="columnJobRole" msprop:Generator_UserColumnName="JobRole" type="xs:string" minOccurs="0" />
+              <xs:element name="PackageLPA" msprop:Generator_ColumnPropNameInRow="PackageLPA" msprop:Generator_ColumnPropNameInTable="PackageLPAColumn" msprop:Generator_ColumnVarNameInTable="columnPackageLPA" msprop:Generator_UserColumnName="PackageLPA" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
